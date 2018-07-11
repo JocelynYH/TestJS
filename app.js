@@ -1,6 +1,6 @@
 #!/usr/bin/nodejs
 
-var http = require ('hhtp');
+var http = require ('http');
 
 http.createserver (
 	(req, res) => {
