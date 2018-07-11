@@ -2,7 +2,7 @@
 
 var http = require ('http');
 
-http.createserver (
+http.createServer (
 	(req, res) => {
 		
 		res.writeHead (200);
