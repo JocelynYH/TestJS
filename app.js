@@ -17,7 +17,7 @@ http.createServer (
 
 		res.writeHead (200);
 
-		var abc = pool.query('select body from messages',
+		pool.query('select body from messages',
 
 			(error, results, fields) => {
 
